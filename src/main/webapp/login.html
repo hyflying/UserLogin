@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="CSS/login.css" rel="stylesheet">
+</head>
+<body>
+    <div id="loginDiv">
+        <form action="/UserLogin_war_exploded/loginServlet" method="post" id="form">
+            <h1 id="loginMsg">飞飞袜业</h1>
+            <p>Username:<input id="username" name="username" type="text"></p>
+            <p>Password:<input id="password" name="password" type="password"></p>
+            <div id="subDiv">
+                <input type="submit" class="button" value="log in">
+                <input type="reset" class="button" value="reset"><br>
+                <a href="register.html">没有账号？点击注册</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

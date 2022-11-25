@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="UserLogin:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>UserLogin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="UserLogin-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="UserLogin:war exploded" />
+    </root>
+  </artifact>
+</component>
